@@ -33,10 +33,10 @@ class Player(GameSprite):
 
 speed_x = 3
 speed_y = 3
-background = transform.scale(image.load("Wednesday.jpg"), (win_width, win_height))
+background = transform.scale(image.load("Fon.jpg"), (win_width, win_height))
 player1 = Player('racets.png', 0, 100, 5, 75, 90)
 player2 = Player('racets.png', 625, 100, 5, 75, 90)   
-ball = GameSprite('boll.png', 250, 250, 5, 50, 50)      
+ball = GameSprite('boll.png', 250, 250, 5, 80, 80)      
 clock = time.Clock()
 FPS = 60
 run = True
